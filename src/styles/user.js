@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const UserBox = styled.div`
 border: 1px solid rgba(0, 0, 0, 0.2);
 width: 25vh;
-display: flex;
-flex-direction: column;
 background-color: white;
 padding: 2rem;
 gap: 8px;
