@@ -2,16 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background-color: palevioletred;
+background-size: cover;
 `;
 export const StyledContainer = styled.div`
 padding: 10px;
 `;
 
 export const List = styled.div`
-max-width: 1200px;
 margin: 10px;
 display: grid;
-grid-gap: 20px;
+grid-gap: 50px;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `;
 
