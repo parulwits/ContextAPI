@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 background-color: palevioletred;
 background-size: cover;
+min-height: 100vh;
 `;
 export const StyledContainer = styled.div`
 padding: 10px;
