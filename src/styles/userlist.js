@@ -12,8 +12,8 @@ padding: 10px;
 export const List = styled.div`
 margin: 10px;
 display: grid;
-grid-gap: 50px;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-gap: 40px;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 `;
 
 export const Title = styled.div`
