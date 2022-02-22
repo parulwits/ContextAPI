@@ -1,7 +1,7 @@
 
 import { useContext } from 'react';
 import { AppContext } from '../context';
-
+import { UserBox, Button } from '../styles/user'
 const User = ({ user }) => {
 	const { dispatchUserEvent } = useContext(AppContext);
 
@@ -9,15 +9,12 @@ const User = ({ user }) => {
 		dispatchUserEvent('REMOVE_USER', { userId: user.id });
 	};
 	return (
-		<div className="user-box">
+		<UserBox>
 			<div >Name: <small>{user.name}</small></div>
 			<div>Age: <small>{user.age}</small></div>
 			<div>Bio: <small> {user.bio}</small></div>
-			<div className="button-container">
-				<button onClick={handleRemoveUser}>Delete user</button>
-			</div>
-
-		</div>
+			<Button onClick={handleRemoveUser}>Delete user</Button>
+		</UserBox>
 	);
 };
 
